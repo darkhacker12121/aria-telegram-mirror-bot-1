@@ -1,14 +1,14 @@
 module.exports = Object.freeze({
-  TOKEN: 'bot_token',
+  TOKEN: '1561876762:AAGGefdMwZ6X3rXYqTF8b_vT7W-B9VJrRi0',
   ARIA_SECRET: 'aria2_secret',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: ['YIFY'], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
-  GDRIVE_PARENT_DIR_ID: 'id_of_Drive_folder_to_upload_into',
-  SUDO_USERS: [012, 345],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [678, 901],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  GDRIVE_PARENT_DIR_ID: '18nvYU-mpPsy04djVGiJeHCixaftatD6a',
+  SUDO_USERS: [1156597097],	// Telegram user IDs. These users can use the bot in any chat.
+  AUTHORIZED_CHATS: [1156597097],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
@@ -24,5 +24,5 @@ module.exports = Object.freeze({
     ENABLED: false,  // If true, all commands except '/list' has to have the bot username after the command
     NAME: "@nameOf_bot"
   },
-  IS_TEAM_DRIVE: false
+  IS_TEAM_DRIVE: True
 });
